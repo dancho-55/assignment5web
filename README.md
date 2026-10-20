@@ -52,4 +52,4 @@ Import the GitHub repository in Netlify, leave the build command empty, and set 
 
 ## Defense
 
-Read `DEFENSE_RU.txt` and be ready to explain or modify your own code during the practice lesson. The assignment includes an individual defense and an in-class live coding challenge.
+Be ready to explain or modify your own code during the practice lesson. The assignment includes an individual defense and an in-class live coding challenge.

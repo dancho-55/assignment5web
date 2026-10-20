@@ -1,4 +1,3 @@
-// Task 0: first script
 console.log('Name: ' + student.name);
 console.log('Group: ' + student.group);
 document.getElementById('student-label').textContent = student.name + ' · ' + student.group;
@@ -6,8 +5,6 @@ alert('Hello, JavaScript World!');
 document.getElementById('greet').addEventListener('click', function () {
   alert('Hello, JavaScript World!');
 });
-
-// Task 1: variables and operators
 let language = 'JavaScript';
 let firstNumber = 12;
 let secondNumber = 4;

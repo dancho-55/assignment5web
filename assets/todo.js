@@ -1,5 +1,4 @@
 document.getElementById('student-label').textContent = student.name + ' · ' + student.group;
-// Tasks are kept only in this array. Reloading clears them.
 let tasks = [];
 let taskInput = document.getElementById('task-input');
 let taskList = document.getElementById('todo-list');
@@ -46,7 +45,7 @@ function showTasks() {
 }
 
 document.getElementById('todo-form').addEventListener('submit', function (event) {
-  event.preventDefault(); // Keep the form from reloading the page.
+  event.preventDefault();
   let text = taskInput.value.trim();
   if (text === '') {
     document.getElementById('todo-message').textContent = 'Please enter a task first.';

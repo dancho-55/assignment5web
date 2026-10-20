@@ -1,5 +1,4 @@
 'use strict';
-// Student information is defined in student.js.
 document.querySelector('#student-label').textContent = student.name + ' · ' + student.group;
 
 const box = document.querySelector('#hover-box');
@@ -7,8 +6,8 @@ box.addEventListener('mouseover', () => { box.style.backgroundColor = '#d9f99d';
 box.addEventListener('mouseout', () => { box.style.backgroundColor = ''; });
 const input = document.querySelector('#live-input');
 const showValue = () => { document.querySelector('#live-output').textContent = input.value || 'Your text will appear here.'; };
-input.addEventListener('keyup', showValue); // Required keyboard event.
-input.addEventListener('input', showValue); // Also handles paste and mobile input.
+input.addEventListener('keyup', showValue);
+input.addEventListener('input', showValue);
 document.querySelector('#calculator').addEventListener('submit', event => {
   event.preventDefault();
   const a = Number(document.querySelector('#first-number').value);
